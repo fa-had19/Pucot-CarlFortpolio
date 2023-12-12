@@ -198,8 +198,8 @@ body{
     width: 70%;
     z-index: 2;
     border-radius: 100%;
-    width: 30vh;
-    height: 30vh;
+    width: 50vh;
+    height: 50vh;
 }
 
 .hero-img-bg{
