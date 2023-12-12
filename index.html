@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ============== scroll reveal cdn ================ -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- ============== box icon cdn  ===================== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ============== custom css file ==================  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scrip.js">
+     
+    <title>Mini portfolio.</title>
+</head>
+<body>
+    <!-- =============== home page ==================  -->
+    <div class="home-section section flex " id="home">
+        <!-- navigation menu  -->
+        <div class="header-nav">
+            <!-- mode change icon  -->
+            <div class="mode-change-icon">
+                <i class="bx bx-moon" id="mode-change-icon"></i>
+            </div>
+
+            <!-- menu icon  -->
+            <div class="menu-icon">
+                <i class='bx bx-grid-alt' id="menu-icon"></i>
+            </div>
+
+            <!-- nav list  -->
+            <ul class="header-nav-list nav flex" id="header-nav-list">
+                <li>
+                    <a href="#home" class="nav-link active">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-link">
+                        Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">
+                        About me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+
+        <!-- hero section  -->
+        <div class="hero flex">
+            <div class="hero-img flex">
+                <img src="images/carl.png" class="profile-pic" alt="">
+                <span class="hero-img-bg"></span>
+            </div>
+            <!-- hero content  -->
+            <div class="hero-content flex">
+                <h1 class="header">
+                    I'm 
+                    <span>
+                        Carl
+                    </span>
+                    19 Years old
+                </h1>
+                
+                <h2 class="sub-header">
+                    I create Stunning 
+                    <span>
+                        Websites
+                    </span>
+                </h2>
+    
+                <button class="btn hero-btn">
+                    View my work
+                    <i class='bx bx-paper-plane' ></i>
+                </button>
+            </div>
+    
+            <!-- social icon list  -->
+            <div class="social-icon-list">
+                <ul class="nav flex">
+                    <li class="social-icon">
+                        <i class="bx bxl-facebook-circle"></i>
+                    </li>
+                    <li class="social-icon">
+                        <i class="bx bxl-instagram-alt"></i>
+                    </li>
+                    <li class="social-icon">
+                        <i class="bx bxl-twitter"></i>
+                    </li>
+                    <li class="social-icon">
+                        <i class="bx bxl-youtube"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="scroll-top-icon" id="scroll-up">
+                <i class="bx bxs-chevron-up-circle" id="scroll-top-icon"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =============== projects section ============ -->
+    <div class="project-section section" id="projects">
+        <h1 class="section-header">
+            Projects
+        </h1>
+
+        <div class="project project-1 flex">
+            <div class="project-img">
+                <img src="img/project-1.png" alt="">
+            </div>
+
+            <div class="project-content flex">
+                <h1 class="project-header">
+                    Responsive landing page - by Carl
+                </h1>
+
+                <p class="project-description">
+                    
+                </p>
+
+                <div class="btn-group">
+                    <button class="btn live-demo-btn">
+                        <a href="https://fa-had19.github.io/Pucot-Carl/">Project 1</a>
+                    </button>
+                    <button class="btn view-code-btn">
+                        <a href="https://fa-had19.github.io/fahad1/">Project 2</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project project-2 flex">
+            <div class="project-img">
+                <img src="img/project-2.png" alt="">
+            </div>
+
+            <div class="project-content flex">
+                <h1 class="project-header">
+                    
+                </h1>
+
+                <p class="project-description">
+                    Computer science is a dynamic and expansive field that revolves around the study and application of algorithms, data structures, and computational systems. It encompasses a broad spectrum of disciplines, including software development, artificial intelligence, machine learning, and cybersecurity. With an emphasis on problem-solving and logical thinking, computer science enables individuals to create innovative solutions to real-world challenges. Its impact extends across diverse industries, driving technological advancements that shape our modern world. The field offers a wide range of career opportunities, from software engineering to data analysis, and fosters continuous learning as technology evolves.
+                </p>
+
+                <div class="btn-group">
+                    <button class="btn live-demo-btn">
+                        Summary
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============== About Section ==============  -->
+    <div class="about-section section" id="about">
+        <h1 class="section-header">
+            About me
+        </h1>
+
+        <div class="about-content flex">
+            <div class="about-img flex">
+                <img src="img/profile-pic.png" alt="">
+            </div>
+
+            <div class="about-info">
+                <h1 class="content-header">
+                    Hi I'm Carl
+                </h1>
+
+                <p class="content-body">
+                    I am a College of computer science, undergraduate student. My journey in the field of computer science has been a dynamic and fulfilling exploration of technology and its applications.
+
+
+From a young age, I exhibited a keen interest in technology and problem-solving. This curiosity led me to delve into the world of computer science during my high school years. I found joy in understanding the intricacies of algorithms and the logic behind programming languages.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============== contact section ============= -->
+    <div class="contact-section section" id="contact">
+        <h1 class="section-header">
+            Contact me
+        </h1>
+
+        <form action="" class="contact-form flex">
+            <div class="contact-group flex">
+                <input type="text" name="username" placeholder="Your name" required id="">
+                <input type="email" name="email" placeholder="Your email" required id="">
+            </div>
+            <textarea name="" id="" required placeholder="Your message" cols="30" rows="10"></textarea>
+
+            <button class="btn submit-btn">
+                Send Message
+            </button>
+        </form>
+    </div>
+    <!-- =============== footer section =============  -->
+    <div class="footer-section section flex">
+        <div class="footer-header">
+            <h1>
+                Carl
+            </h1>
+        </div>
+
+        <div class="footer-nav">
+            <ul class="nav flex">
+                <li class="social-icon">
+                    <a href="https://facebook.com/"><i class="bx bxl-facebook-circle"></i></a></i>
+                </li>
+                <li class="social-icon">
+                    <a href="https://itagram.com/"><i class="bx bxl-instagram-alt"></i></a></i>
+                </li>
+                <li class="social-icon">
+                    <a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
+                </li>
+                <li class="social-icon">
+                    <a href="https://youtube.com/"><i class="bx bxl-youtube"></i></a></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- =============== custom js file  ============= -->
+    <script src="dist/script.js"></script>
+</body>
+</html>
